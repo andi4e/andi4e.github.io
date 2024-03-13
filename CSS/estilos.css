@@ -1,0 +1,763 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+	font-family: Poppins, sans-serif;
+	background-color: #000000;
+	font-kerning: normal;}
+
+h6 {text-align: left;letter-spacing: 2pt; color: #fff;margin-top: 1vh;font-size: 15pt}
+h1 {text-align: left; color: #fff;font-size: 30pt}
+
+button {
+	border: none;
+	width: 25%;
+	height: 50px;
+	background-color: #000;
+	color:#fff;
+	font-size: 13pt;
+	font-family: Poppins, sans-serif;
+	border-radius: 4vh;
+	margin-top: 3vh;
+  justify-content: center;
+  margin-left: 37%;
+}
+
+button:hover{background-color: #222}
+
+*{ margin:0; padding:0 } 
+
+#banner{
+	width: 100%;
+	height: 7.5vh;
+	position: fixed;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 5.0);
+}
+
+.menu1{
+	width: 33.33%;
+	height: 7.5vh;
+	float: left;
+}
+
+.menu1 li {list-style: none; display: inline-block; margin-left: 5%; margin-top: 17px}
+.menu1 a:link, a:visited {text-decoration: none; color: #e1dfda }
+.menu1 a:hover { color: #fff }
+
+.menu2{
+	width: 33.33%;
+	height: 7.5vh;
+	float: left;
+	text-align: center;
+}
+
+.menu2 h2 a:link, a:visited {text-decoration: none; color: #e1dfda; }
+.menu2 h2 a:hover{ color: #fff }
+.menu2 h2 {padding-top: 12px}
+
+.menu3{
+	width: 33.33%;
+	height: 7.5vh;	
+	float: right;	
+	text-align: right;
+}
+
+.menu3 li {list-style: none; display: inline-block; margin-right: 5%; margin-top: 17px}
+.menu3 a:link, a:visited {text-decoration: none; color: #e1dfda }
+.menu3 a:hover{ color: #fff }
+
+#imagen-principal1{
+	width: 100%;
+	height: 100vh;
+	clear: both;
+	background-color: #D62828;
+	background: url(../imagenes/bg-image.jpg) no-repeat center;
+	background-size:cover;
+}
+
+
+.text-intro{
+	width: 40%;
+	height: 30vh;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-top: 50%;
+	margin-left: -20%;
+	margin-top: -10vh;
+
+}
+
+.text-intro h6 {text-align: center;letter-spacing: 2pt; color: #fff;margin-top: 1vh;font-size: 15pt}
+.text-intro h1 {text-align: center;letter-spacing: 2pt; color: #fff;font-size: 30pt}
+
+#imagen1{
+	width: 47%;
+	height: 90vh;
+	float: left;
+	margin-top: 2.5vh;
+	margin-left: 2%;
+	border-radius: 4vh;
+	background-color: #FCBF49;
+	background: url(../imagenes/flor1.jpg) no-repeat center;
+	background-size:cover;
+}
+
+ .text1{
+ 	width: 25%;
+ 	height: 25vh;
+ 	position: absolute;
+ 	left: 7%;
+ 	margin-top: 30vh;
+ }
+
+.text1 button {
+	border: none;
+	width: 40%;
+	height: 50px;
+	background-color: #000;
+	color:#fff;
+	font-size: 13pt;
+	font-family: Poppins, sans-serif;
+	border-radius: 4vh;
+	margin-top: 3vh;
+	margin-left: -1.8%;
+
+}
+
+.text1 button:hover{background-color: #222}
+
+
+#imagen2{
+	width: 47%;
+	height: 90vh;
+	float: left;
+	margin-top: 2.5vh;
+	margin-bottom: 2.5vh;
+	margin-left: 2%;
+	border-radius: 4vh;
+	background-color: #FCBF49;
+	background: url(../imagenes/flor2.jpg) no-repeat center;
+	background-size:cover;
+}
+
+ .text2{
+ 	width: 25%;
+ 	height: 25vh;
+ 	position: absolute;
+ 	left: 56%;
+ 	margin-top: 30vh;
+ }
+
+.text2 button {
+	border: none;
+	width: 40%;
+	height: 50px;
+	background-color: #000;
+	color:#fff;
+	font-size: 13pt;
+	font-family: Poppins, sans-serif;
+	border-radius: 4vh;
+	margin-top: 3vh;
+	margin-left: -1.8%;
+
+}
+
+.text2 button:hover{background-color: #222}
+
+#imagen-principal2{
+	width: 96%;
+	height: 90vh;
+	margin-left: 2%;
+	clear: both;
+	border-radius: 4vh;
+	background-color: #F77F00;
+	background: url(../imagenes/diente.jpg) no-repeat center;
+	background-size:cover;
+}
+
+ .text-intro2{
+ 	width: 30%;
+ 	height: 35vh;
+ 	position: absolute;
+ 	left: 9%;
+ 	margin-top: 30vh;
+ }
+
+ .text-intro2 button {
+	border: none;
+	width: 35%;
+	height: 50px;
+	background-color: #000;
+	color:#fff;
+	font-size: 13pt;
+	font-family: Poppins, sans-serif;
+	border-radius: 4vh;
+	margin-top: 3vh;
+	margin-left: -1.8%;
+
+}
+
+ .text-intro2 button:hover{background-color: #222}
+
+#imagen3{
+	width: 47%;
+	height: 90vh;
+	float: left;
+	margin-top: 2.5vh;
+	margin-left: 2%;
+	border-radius: 4vh;
+	background-color: #FCBF49;
+	background: url(../imagenes/flor3.jpg) no-repeat center;
+	background-size:cover;
+}
+
+  .text3{
+ 	width: 25%;
+ 	height: 27vh;
+ 	position: absolute;
+ 	left: 13%;
+ 	margin-top: 55vh;
+
+ }
+
+.text3 h6 {text-align: center;letter-spacing: 2pt; color: #fff;margin-top: 1vh;font-size: 15pt}
+.text3 h1 {text-align: center;letter-spacing: 2pt; color: #fff;font-size: 30pt}  
+
+.text3 button {
+	border: none;
+	width: 45%;
+	height: 50px;
+	background-color: #000;
+	color:#fff;
+	font-size: 13pt;
+	font-family: Poppins, sans-serif;
+	border-radius: 4vh;
+	margin-top: 3vh;
+  justify-content: center;
+  margin-left: 25%;
+
+}
+
+.text3 button:hover{background-color: #222}
+
+#imagen4{
+	width: 47%;
+	height: 90vh;
+	float: left;
+	margin-top: 2.5vh;
+	margin-bottom: 2.5vh;
+	margin-left: 2%;
+	border-radius: 4vh;
+	background-color: #FCBF49;
+	background: url(../imagenes/flor4.jpg) no-repeat center;
+	background-size:cover;
+}
+
+ .text4{
+ 	width: 25%;
+ 	height: 27vh;
+ 	position: absolute;
+ 	left: 62%;
+ 	margin-top: 55vh;
+ }
+
+.text4 h6 {text-align: center;letter-spacing: 2pt; color: #fff;margin-top: 1vh;font-size: 15pt}
+.text4 h1 {text-align: center;letter-spacing: 2pt; color: #fff;font-size: 30pt} 
+
+.text4 button {
+	border: none;
+	width: 45%;
+	height: 50px;
+	background-color: #000;
+	color:#fff;
+	font-size: 13pt;
+	font-family: Poppins, sans-serif;
+	border-radius: 4vh;
+	margin-top: 3vh;
+  justify-content: center;
+  margin-left: 25%;
+
+}
+
+.text4 button:hover{background-color: #222}
+
+#imagen-principal3{
+	width: 96%;
+	height: 90vh;
+	margin-left: 2%;
+	clear: both;
+	border-radius: 4vh;
+	background-color: #F77F00;
+	background: url(../imagenes/rosa.jpg) no-repeat center;
+	background-size:cover;
+}
+
+ .text-intro3{
+ 	width: 30%;
+ 	height: 35vh;
+ 	position: absolute;
+ 	left: 9%;
+ 	margin-top: 40vh;
+ }
+
+ .text-intro3 button {
+	border: none;
+	width: 35%;
+	height: 50px;
+	background-color: #000;
+	color:#fff;
+	font-size: 13pt;
+	font-family: Poppins, sans-serif;
+	border-radius: 4vh;
+	margin-top: 3vh;
+	margin-left: -1.8%;
+
+}
+
+ .text-intro3 button:hover{background-color: #222}
+
+#imagen5{
+	width: 47%;
+	height: 90vh;
+	float: left;
+	margin-top: 2.5vh;
+	margin-left: 2%;
+	border-radius: 4vh;
+	background-color: #FCBF49;
+	background: url(../imagenes/flor5.jpg) no-repeat center;
+	background-size:cover;
+}
+
+  .text3{
+ 	width: 25%;
+ 	height: 27vh;
+ 	position: absolute;
+ 	left: 13%;
+ 	margin-top: 55vh;
+ }
+
+.text3 h6 {text-align: center;letter-spacing: 2pt; color: #ccc;margin-top: 1vh;font-size: 15pt} 
+ 
+ .text3 button {
+	border: none;
+	width: 45%;
+	height: 50px;
+	background-color: #000;
+	color:#fff;
+	font-size: 13pt;
+	font-family: Poppins, sans-serif;
+	border-radius: 4vh;
+	margin-top: 3vh;
+  justify-content: center;
+  margin-left: 25%;
+
+}
+
+.text3 button:hover{background-color: #222}
+
+#imagen6{
+	width: 47%;
+	height: 90vh;
+	float: left;
+	margin-top: 2.5vh;
+	margin-bottom: 2.5vh;
+	margin-left: 2%;
+	border-radius: 4vh;
+	background-color: #FCBF49;
+	background: url(../imagenes/flor6.jpg) no-repeat center;
+	background-size:cover;
+}
+
+  .text6{
+ 	width: 25%;
+ 	height: 25vh;
+ 	position: absolute;
+ 	left: 56%;
+ 	margin-top: 10vh;
+ }
+
+.text6 h1 {text-align: left; color: #fff;font-size: 30pt}
+
+.text6 button {
+	border: none;
+	width: 45%;
+	height: 50px;
+	background-color: #000;
+	color:#fff;
+	font-size: 13pt;
+	font-family: Poppins, sans-serif;
+	border-radius: 4vh;
+	margin-top: 3vh;
+  justify-content: center;
+  margin-left: -1.8%;
+
+}
+
+.text6 button:hover{background-color: #222}
+
+#imagen-principal4{
+	width: 96%;
+	height: 90vh;
+	margin-left: 2%;
+	clear: both;
+	border-radius: 4vh;
+	background-color: #F77F00;
+	background: url(../imagenes/mariposa.jpg) no-repeat center;
+	background-size:cover;
+}
+
+
+
+#imagen-secundaria1{
+	width: 30.66%;
+	height: 73vh;
+	float: left;
+	margin-top: 2.5vh;
+	margin-bottom: 2.5vh;
+	margin-left: 2%;
+	border-radius: 4vh;
+	background-color: #FCBF49;
+	background: url(../imagenes/flor-sec1.jpg) no-repeat center;
+	background-size:cover;
+}
+
+#imagen-secundaria2{
+	width: 30.66%;
+	height: 73vh;
+	float: left;
+	margin-top: 2.5vh;
+	margin-bottom: 2.5vh;
+	margin-left: 2%;
+	border-radius: 4vh;
+	background-color: #FCBF49;
+	background: url(../imagenes/flor-sec2.jpg) no-repeat center;
+	background-size:cover;
+}
+
+#imagen-secundaria3{
+	width: 30.66%;
+	height: 73vh;
+	float: left;
+	margin-top: 2.5vh;
+	margin-bottom: 2.5vh;
+	margin-left: 2%;
+	border-radius: 4vh;
+	background-color: #FCBF49;
+	background: url(../imagenes/flor-sec3.jpg) no-repeat center;
+	background-size:cover;
+}
+
+.texto-secundaria{
+	width: 100%;
+	height: 20vh;
+	margin-top: 53.5vh;
+	background-color: #1d1c21;
+	border-radius:0vh 0vh 4vh 4vh ;
+}
+
+.texto-secundaria h6 {
+	text-align: left;
+	letter-spacing: 2pt; 
+	color: #fff; 
+	position: absolute;
+	margin-left:2%;
+	font-size: 12pt;
+	margin-top: 3.7vh;
+
+}
+
+.texto-secundaria h1 {
+	text-align: left; 
+	color: #fff;
+	font-size: 25pt;
+	margin-left:2%;
+	position: absolute;
+	margin-top: 7vh;
+}
+
+
+#footer{
+	width: 96%;
+	height: 90vh;
+	clear: both;
+	margin-bottom: 2.5vh;
+	margin-left: 2%;
+	margin-top: 2.5vh;
+	border-radius: 4vh;
+	background-color: #003049;
+}
+
+.texto1-footer{
+	background-color: #000000;
+	width: 14%;
+	height: 40vh;
+	float: left;
+	margin-top: 3vh;
+	margin-left: 10%;
+	color:#ffffff;
+}
+
+
+.texto1-footer li{list-style: none}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOVIL */
+@media screen and (max-width: 560px)
+{
+	#imagen-principal1{
+	width: 100%;
+	height: 100vh;
+	background: url(../imagenes/bg-image.jpg) no-repeat center;
+	background-size:cover;
+}
+
+.text-intro{
+	width: 80%;
+	height: 30vh;
+	left: 30%;
+	top:45%;
+}
+
+button {
+	width: 40%;
+	height: 45px;
+  margin-left: 30%;
+  font-size: 12pt;
+}
+
+
+#imagen1{
+	width: 96%;
+	height: 66.76vh;
+	margin-top: 2vh;
+}
+
+ .text1{
+ 	width: 55%;
+ 	height: 25vh;
+ 	left: 7%;
+ 	margin-top: 20vh;
+ }
+
+.text1 button {
+	width: 56%;
+	height: 45px;
+	font-size: 12pt;
+	margin-top: 3vh;
+	margin-left: -.9%;
+
+}
+
+#imagen2{
+	width: 96%;
+	height: 66.76vh;
+	margin-top: 2vh;
+	margin-bottom: 2.5vh;
+}
+
+ .text2{
+ 	width: 55%;
+ 	height: 25vh;
+ 	left: 7%;
+ 	margin-top: 20vh;
+ }
+
+.text2 button {
+	width: 52%;
+	height: 45px;
+	font-size: 12pt;
+	margin-left: -.9%;
+
+}
+
+#imagen-principal2{
+	width: 96%;
+	height: 91.6vh;
+}
+
+ .text-intro2{
+ 	width: 75%;
+ 	height: 35vh;
+ 	left: 9%;
+ 	margin-top: 27vh;
+ }
+
+ .text-intro2 button {
+	width: 40%;
+	height: 45px;
+	font-size: 12pt;
+	margin-top: 3vh;
+	margin-left: -1.8%;
+}
+
+#imagen3{
+	width: 96%;
+	height: 66.76vh;
+	margin-top: 2vh;
+}
+
+  .text3{
+	width: 70%;
+ 	height: 23vh;
+ 	left: 15.2%;
+ 	margin-top: 39vh;
+ }
+
+.text3 button {
+	width: 48%;
+	height: 45px;
+	font-size: 12pt;
+  margin-left: 26%;
+  margin-top: 2vh;
+}
+
+#imagen4{
+	width: 96%;
+	height: 66.76vh;
+	margin-top: 2vh;
+	margin-bottom: 2.5vh;
+}
+
+ .text4{
+	width: 70%;
+ 	height: 23vh;
+ 	left: 15.2%;
+ 	margin-top: 39vh;
+ }
+
+.text4 button {
+	width: 48%;
+	height: 45px;
+	font-size: 12pt;
+  margin-left: 26%;
+  margin-top: 2vh;
+}
+
+#imagen-principal3{
+	width: 96%;
+	height: 91.6vh;
+}
+
+ .text-intro3{
+ 	width: 68%;
+ 	height: 20vh;
+ 	left: 10%;
+ 	margin-top: 60vh;
+ }
+
+.text-intro h6{font-size: 10pt;margin-top: 5vh}
+.text-intro h1{font-size: 28pt}
+
+ .text-intro3 button {
+	width: 45%;
+	height: 45px;
+	font-size: 12pt;
+	margin-top: 3vh;
+	margin-left: -.9%;
+}
+
+#imagen5{
+	width: 96%;
+	height: 66.76vh;
+	margin-top: 2vh;
+}
+
+  .text3{
+	width: 70%;
+ 	height: 23vh;
+ 	left: 15.2%;
+ 	margin-top: 39vh;
+ }
+
+#imagen6{
+	width: 96%;
+	height: 66.76vh;
+	margin-top: 2vh;
+	margin-bottom: 2.5vh;
+}
+
+  .text6{
+	width: 59%;
+ 	height: 25vh;
+ 	left: 7%;
+ 	margin-top: 20vh;
+ }
+
+ .text6 button {
+	width: 50%;
+	height: 45px;
+	font-size: 12pt;
+	margin-top: 3vh;
+  margin-left: -.9%;
+}
+
+#imagen-principal4{
+	width: 96%;
+	height: 91.6vh;
+}
+
+#imagen-secundaria1{
+	width: 96%;
+	height: 64.76vh;
+	margin-top: 2vh;
+	margin-bottom: 2.5vh;
+}
+
+#imagen-secundaria2{
+	width: 96%;
+	height: 64.76vh;
+	margin-top: 2vh;
+	margin-bottom: 2.5vh;
+}
+
+#imagen-secundaria3{
+	width: 96%;
+	height: 64.76vh;
+	margin-top: 2vh;
+	margin-bottom: 3vh;
+}
+
+.texto-secundaria{
+	width: 100%;
+	margin-top: 45vh;
+}
+
+
+.texto-secundaria h6 {
+	text-align: left;
+	letter-spacing: 2pt; 
+	color: #fff; 
+	position: absolute;
+	margin-left:4%;
+	font-size: 11pt;
+	margin-top: 3.7vh;
+
+}
+
+.texto-secundaria h1 {
+	text-align: left; 
+	color: #fff;
+	font-size: 24pt;
+	margin-left:4%;
+	position: absolute;
+	margin-top: 7vh;
+}
+#footer{
+	width: 96%;
+	height: 30vh;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+
+}
+
+}
